@@ -1,0 +1,175 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 87.5%;  /* 14px */
+	line-height: 1.1;
+	font-size: 1.143em;
+	min-height: 100vh;
+
+	background-image: url(../images/water.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+@media only screen and (min-width: 768px) {
+	header {
+		background-color: rgba(43, 156, 215, 0.7);
+		text-align: center;
+		padding: 3vh;
+	}
+}
+@media only screen and (max-width: 768px) {
+	header {
+		background-color: rgba(43, 156, 215, 0.7);
+		text-align: center;
+		margin: auto;
+		padding: 3vh;
+	}
+}
+div.menu {
+	float: left;
+	border-right: 3px solid red;
+	width: 140px;
+	height: 100vh;
+	background-color: rgba(255,255,255, 0.7);
+	display: none;
+}
+div.menubutton {
+	float: left;
+	border-right: 3px solid red;
+	border-bottom: 3px solid red;
+	width: 60px;
+	height: 40px;
+	line-height: 30px;
+	text-align: center;
+	background-color: rgba(43, 156, 215, 0.7);
+	border-radius: 0 0 30px 0;
+}
+div.menuhide {
+	float: left;
+	border-right: 3px solid red;
+	border-bottom: 3px solid red;
+	width: 60px;
+	height: 40px;
+	line-height: 30px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: rgba(43, 156, 215, 0.7);
+	display: none;
+	border-radius: 0 0 30px 0;
+}
+.menufixed{
+	position: fixed;
+	top: 0;
+	left: 0;
+
+}
+.hidefixed{
+	position: fixed;
+	top: 0;
+	left: 143px;
+}
+.content {
+	background-color: rgba(255,255,255, 0.9);
+	width: 65vw;
+	margin: auto;
+	padding: 1vw;
+	display: block;
+}
+.clear {
+	clear: both;
+}
+footer {
+	background-color: rgba(43, 156, 215, 0.7);
+	text-align: center;
+	padding: 5px;
+		
+}
+.links {
+	width: 100%;
+	overflow: hidden;
+}
+
+.links1 {
+	position: relative;
+	width: 49%;
+	float: left;
+}
+.links2 {
+	position: relative;
+	width: 49%;
+	float: left;
+}
+.test {
+	border: 1px solid black;
+}
+p {
+	text-align: left;
+}
+h1 {
+	text-align: center;
+}
+h2 {
+	text-align: center;
+}
+h3 {
+	text-align: center;
+}
+#hercules {
+	float: left;
+	height: 200px;
+	width: 300px;
+}
+#heibok {
+	float: right;
+	height: 200px;
+	width: 300px;
+}
+#mail {
+	height: 30px;
+	width: 30px;
+}
+#youtubelogo {
+	height: 80px;
+	width: 150px;
+	/*position!!!*/
+}
+.logboeklinks {
+	float: left;
+	height: 80px;
+	width: 100px;
+}
+.logboekrechts {
+	float: right;
+	height: 80px;
+	width: 100px;
+}
+.logfotorechts {
+	float: right;
+	width: 300px;
+	padding: 10px;
+}
+.logfotolinks {
+	float: left;
+	width: 300px;
+	padding: 10px;
+}
+.1915foto {
+	height: 200px;
+}
+#links {
+	text-align: left;
+	width: 35%;
+}
+.links ul li {
+	text-decoration: none;
+	display: block;
+}
+hr {
+	clear: both;
+	visibility: hidden;
+}
+
+#language {
+	width: 39px;
+}
